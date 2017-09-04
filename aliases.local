@@ -1,0 +1,8 @@
+# heroku
+alias hcs="heroku console --remote staging"
+alias hcp="heroku console --remote production"
+
+# sharespost
+alias cds="cd /Users/may/Desktop/sharex"
+alias ng="../../ngrok http -subdomain=mmr-sharespost 3000"
+alias hl="heroku local -e .env.local"

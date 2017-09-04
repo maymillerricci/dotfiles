@@ -1,0 +1,13 @@
+[user]
+  name = May Miller-Ricci
+  email = maymillerricci@gmail.com
+[alias]
+  s = status
+  l = log
+  b = branch
+  d = ! "git diff | subl"
+  dc = ! "git diff --cached | subl"
+  bd = branch -D
+[core]
+  excludesfile = /Users/may/dotfiles-local/gitignore.local
+
