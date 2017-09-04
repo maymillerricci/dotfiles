@@ -1,0 +1,14 @@
+" case-insensitive searching
+set ignorecase
+" but case-sensitive if expression contains a capital letter
+set smartcase
+
+" relative line numbers
+set relativenumber
+
+" use the system clipboard
+set clipboard=unnamed
+
+" beginning/end of line
+nnoremap <C-h> ^
+nnoremap <C-l> $
