@@ -8,6 +8,12 @@
   d = ! "git diff | subl"
   dc = ! "git diff --cached | subl"
   bd = branch -D
+  rb = rebase origin/master
+  rbi = rebase origin/master -i
+  fs = fetch staging
+  fp = fetch production
+  los = log --oneline staging/master..
+  lop = log --oneline production/master..
 [core]
   excludesfile = /Users/may/dotfiles-local/gitignore.local
 

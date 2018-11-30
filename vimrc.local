@@ -4,7 +4,7 @@ set ignorecase
 set smartcase
 
 " relative line numbers
-set relativenumber
+" set relativenumber
 
 " use the system clipboard
 set clipboard=unnamed
