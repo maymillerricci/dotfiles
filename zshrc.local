@@ -9,3 +9,5 @@ bindkey "\e[3~" delete-char
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
+
+export PATH="$HOME/.rbenv/shims:$PATH"
