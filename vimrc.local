@@ -12,3 +12,9 @@ set clipboard=unnamed
 " beginning/end of line
 nnoremap <C-h> ^
 nnoremap <C-l> $
+
+" Stay on my lawn
+nnoremap <Left> <Left>
+nnoremap <Right> <Right>
+nnoremap <Up> <Up>
+nnoremap <Down> <Down>
