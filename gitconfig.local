@@ -16,6 +16,3 @@
   lop = log --oneline production/master..
 [core]
   excludesfile = /Users/may/dotfiles-local/gitignore.local
-[include]
-  path = /Users/may/go/src/github.com/netlify/dev-bootstrap/config.include
-
