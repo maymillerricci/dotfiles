@@ -5,7 +5,9 @@ alias al="subl ~/.aliases.local"
 # rails
 alias rc="rails c"
 alias rs="rails s"
-alias lint="scss-lint && eslint . && rubocop . && bin/rspec"
+# alias lint="scss-lint && eslint . && rubocop . && bin/rspec"
+alias lint="yarn stylelint && eslint . && rubocop && bin/rspec"
+alias sf="bundle exec standardrb --fix"
 
 # heroku
 alias hc="heroku console"
@@ -27,3 +29,23 @@ alias pert="MIX_ENV=test mix ecto.reset"
 alias prs="mix development_seeds --max-vehicles=50"
 alias pfc="mix compile --force --warnings-as-errors"
 alias pfct="MIX_ENV=test mix compile --force --warnings-as-errors"
+
+# sharespost
+alias cds="cd /Users/may/Desktop/sharex"
+alias ng="../../ngrok http -subdomain=mmr-sharespost 3000"
+alias hl="heroku local -e .env.local"
+
+# rain
+alias cdr="cd /Users/may/Desktop/rain-web"
+alias cdrg="cd /Users/may/go/src/github.com/rainhq/rain"
+
+# swoop
+alias fsp="foreman start -f Procfile.dev"
+
+# netlify
+alias gnb="git netlify bootstrap" 
+alias nac="netlify-api console" 
+alias nat="netlify-api test" 
+alias nati="DOCKER_FLAGS=-ti netlify-api test"
+alias nalc="netlify-api bin/rails log:clear"
+alias nar="netlify-api bin/rubocop"
